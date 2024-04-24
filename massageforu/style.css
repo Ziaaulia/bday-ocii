@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   font-family: "Gaegu", cursive;
   overflow: hidden;
 }
@@ -132,8 +132,8 @@ body {
 
 /* active state to grow the heart */
 .heart.active {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   animation: none !important;
   transition: all 1s 0.2s ease;
   cursor: auto;
@@ -184,7 +184,10 @@ body {
   text-align: center;
   margin: 0 auto;
   width: 90%;
-  margin-top: -20%;
+  margin-top: 20%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   font-size: 14px;
   z-index: 1;
 }
